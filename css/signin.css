@@ -11,15 +11,15 @@ body {
 
 .Signup-box {
     width:500px;
-    height:1000px;
+    height:870px;
     background:rgba(0, 0, 0, 0.5);
     color:#fff;
     position: absolute;
-    top: 50%;
+    top: 57%;
     left: 50%;
     transform: translate(-50%, -50%);
     box-sizing: border-box;
-    padding: 70px 30px;
+    padding: 30px 30px;
     margin-top: 80px;
     
 }
