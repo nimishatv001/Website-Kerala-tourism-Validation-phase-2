@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("/img/all.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif   ;
+}
+.container{
+    margin-top: 8%; 
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+.card{
+    transition: transform 0.5s;
+}

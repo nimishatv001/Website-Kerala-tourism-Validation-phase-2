@@ -1,0 +1,204 @@
+body {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  overflow-x: hidden;
+  color: white;
+  background-color: #2C353C;
+}
+
+ul {
+  padding: 0;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+p {
+  line-height: 1.9;
+}
+
+.tm-logo {
+  margin-right: 20px;
+}
+
+.tm-slogan {
+  font-size: 0.8rem;
+}
+
+a {
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.navbar-expand-lg .navbar-nav .tm-nav-link {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: white;
+  padding-bottom: 40px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: 50px;
+
+}
+
+.nav-item {
+  margin-right: 70px;
+}
+
+.nav-item.active .tm-nav-link,
+.nav-item:hover .tm-nav-link {
+  color: blue;
+}
+
+.logo-img {
+  float: left;
+  position: relative;
+  margin: 10px 15px 15px 10px;
+  margin-top: 50px;
+}
+
+.bg-div {
+
+  overflow: hidden;
+}
+
+.navbar navbar-expand-lg {
+  float: left;
+}
+
+.bg-div {
+  position: absolute;
+  z-index: 999;
+  width: 100%;
+}
+
+.fa {
+  padding: 20px;
+  margin: 5px 2px;
+  font-size: 50px;
+  width: 50px;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.social {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.new {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  text-align: center;
+  margin: 10px;
+  line-height: 100px;
+}
+
+.socialicon {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  background-color: cornsilk;
+
+}
+
+.row {
+  padding: 10px;
+}
+
+.no {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 3rem;
+  color: #125688;
+  background-color: antiquewhite;
+  font-weight: 10rem;
+
+
+}
+
+.relative {
+  position: relative;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+
+}
+.heading{
+  position: absolute;
+  bottom: 0px;
+  background-color: rgba(0,0,0,0.5);
+  color: #fff;
+  right: 22px;
+  left: 12px;
+  text-align: center;
+}
+ .carousel-item{
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  background-size: cover;
+ }
+ .carousel-caption{
+  margin-bottom: 500px;
+ }
+ .carousel-caption h5{
+  font-size: 100px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+  font-family:'Dancing Script', cursive;
+  color:white
+  
+ }
